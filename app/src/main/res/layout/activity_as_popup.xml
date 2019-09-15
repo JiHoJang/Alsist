@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:background="#313537"
+    android:layout_centerInParent="true">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="90dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/cursituation" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:text="Send current situation"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/imageButton5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="9dp"
+        android:background="#2B2F31"
+         />
+
+    <EditText
+        android:id="@+id/TelNumber"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:gravity="center"
+        android:background="@drawable/astext_back"
+        android:textColor="#FFFFFF" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/imageView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/asphone" />
+
+</RelativeLayout>
